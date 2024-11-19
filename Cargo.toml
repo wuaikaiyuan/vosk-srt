@@ -1,0 +1,10 @@
+[package]
+name = "vosk-srt"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+vosk = "0.2"
+hound = "3.5"
+serde_json = "1.0"
+anyhow = "1.0"

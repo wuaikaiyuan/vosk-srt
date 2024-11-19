@@ -1,0 +1,8 @@
+
+[target.'cfg(windows)']
+rustflags = [
+    "-Lnative=F:\\tools\\vosk-win64-0.3.45", # 替换为 libvosk.lib 所在的实际路径
+]
+
+[build]
+target = "x86_64-pc-windows-msvc"
